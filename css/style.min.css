@@ -1,3 +1,7 @@
+.logo-text,
+a {
+  text-decoration: none;
+}
 .orange-line,
 .top-line {
   background-color: var(--color-orange);
@@ -36,9 +40,6 @@
   margin: 0;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
-}
-a {
-  text-decoration: none;
 }
 ul {
   list-style: none;
@@ -206,6 +207,8 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   width: 100%;
+  display: flex;
+  -ms-flex-align: center;
 }
 .card-title {
   font-size: 24px;
@@ -224,8 +227,6 @@ body {
 .orange-ul {
   max-width: 1440px;
   padding-bottom: 180px;
-  display: flex;
-  -ms-flex-align: center;
   align-items: center;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
@@ -238,8 +239,6 @@ body {
 }
 .cta {
   position: relative;
-  display: flex;
-  -ms-flex-align: center;
   align-items: center;
   color: #fff;
   padding: 64px;
@@ -302,7 +301,6 @@ body {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  text-decoration: none;
   color: #f2dfdf;
   margin-right: 90px;
   font-size: 24px;
